@@ -11,3 +11,19 @@
 .bg-xmas-red {
   background-color: #b3000c;
 }
+
+.panetone-slide {
+  padding-top: 50%;
+  background-image: url('../images/panetone2.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.chocotone-slide {
+  padding-top: 50%;
+  background-image: url('../images/chocotone2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
