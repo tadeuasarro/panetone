@@ -7,21 +7,39 @@
   </head>
   <body>
 
-    <nav class="border text-center bg-xmas-red">
-      <div class="p-5 d-flex justify-content-between">
-        <h1 class="display-3 text-white">Panetone</h1>
+    <nav class="border text-center">
+      <div class="p-3 d-flex justify-content-between bg-xmas-red">
+        <h1 class="text-white">Panetone</h1>
         <button class="btn bg-cinnamon" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-          <h1 class="mb-0 text-white"><i class="fas fa-bars px-5 mt-1"></i></h1>
+          <h1 class="mb-0 text-white"><i class="fas fa-bars px-3 mt-1"></i></h1>
         </button>
       </div>
-      <div class="collapse mt-5" id="collapseExample">
-        <ul>
-          <li></li>
+      <div class="collapse" id="collapseExample">
+        <ul class="list-group">
+          <li class="list-group-item h1 py-4 border mb-0">Menu</li>
+          <li class="list-group-item h1 py-4 border mb-0">Sobre</li>
+          <li class="list-group-item h1 py-4 border mb-0">Contato</li>
         </ul>
       </div>
     </nav>
 
-    <main></main>
+    <main>
+      <div id="menu">
+        <div class="px-3">
+          <h1 class="py-3">Panetones</h1>
+          <div class="panetone-slide"></div>
+          <p class="text-justify h3 py-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean aliquet congue tortor, vel eleifend eros molestie id. Sed vulputate, lectus id fermentum auctor, metus sem auctor dolor, nec posuere sapien mi sed tellus. Maecenas turpis risus, viverra at eleifend a, aliquam ut velit. Integer sit amet ipsum velit.</p>
+        </div>
+        <div class="px-3">
+          <h1 class="py-3">Chocotones</h1>
+          <div class="chocotone-slide"></div>
+          <p class="text-justify h3 py-3">Ut scelerisque, mi non venenatis rhoncus, diam eros mollis est, tincidunt egestas urna dui a sapien. Donec suscipit lobortis mauris, quis porta turpis fermentum vel. Suspendisse porta, nulla eget dictum aliquet, ligula metus pretium nisi, eget hendrerit metus mi vel eros. Aenean vitae velit libero.</p>
+        </div>
+      </div>
+      </div>
+      <div id="sobre"></div>
+      <div id="contato"></div>
+    </main>
 
     <footer></footer>
 
