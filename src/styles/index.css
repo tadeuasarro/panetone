@@ -3,3 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.bg-cinnamon {
+  background-color: #D2691E;
+}
+
+.bg-xmas-red {
+  background-color: #b3000c;
+}
